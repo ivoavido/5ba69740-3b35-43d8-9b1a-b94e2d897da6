@@ -42,6 +42,8 @@ JWT_SECRET=qwertyuiopasdfghjklzxcvbnm123456
 # install dependencies
 $ npm install
 
+# before "run" set properly your .env file
+
 # development
 $ npm run start
 
@@ -81,8 +83,4 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJLb25nIiwiaWF0IjoxNzI1NzgzNzA3LCJ
 eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJLb25nIiwiaWF0IjoxNzI1NzgzNzA3LCJleHAiOjE3NTczMTk3MDcsImF1ZCI6IiIsInN1YiI6ImJhNWUxMzA4LWRkN2MtNGIxMS1hNGFiLWIyMzA1ZjNiNTEwMyIsImdpdmVubmFtZSI6IkpvaG4iLCJzdXJuYW1lIjoiRG9lIiwiZW1haWwiOiJqZG9lQGtvbmcuY29tIiwicm9sZXMiOiJyZWFkIiwib3JnYW5pemF0aW9uX3V1aWQiOiI3YzY3MWYzYi0zYjFkLTQ5YjQtYjg3Yi02NmJkOGUyZGViNGUifQ.QQ4EGvFPUijOxO-osJw-OdoWYPBEBTrHJJ0Sk9nDXxc
 ```
 
-These tokens are generated with the the jwt_secret provided in the `.env` file.
-
-## Testing
-
-e2e testing has been provided for the services endpoint. In order to run tests please wipe your database tables and set `JWT_SECRET` to `qwertyuiopasdfghjklzxcvbnm123456`
+These tokens are generated with the the jwt_secret provided in the `.env.sample` file.
